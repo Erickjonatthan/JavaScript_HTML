@@ -60,10 +60,7 @@ function sorteiaNumeros(qtd){
 }
 return segredos;
 }
-var segredos = sorteiaNumeros(5);
 
-var input = document.querySelector("input");
-input.focus();
 
 function verifica() {
 
@@ -88,6 +85,14 @@ function verifica() {
     input.focus();
 
 }
+
+
+
+var segredos = sorteiaNumeros(5);
+
+var input = document.querySelector("div.teste input");
+input.focus();
+
 
 var button = document.querySelector("button");
 
