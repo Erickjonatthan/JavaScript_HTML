@@ -66,9 +66,9 @@ function descodificar() {
     
 }
 
-var input = document.querySelector("div.box_input input");
-input.focus();
-var buttonCodifica = document.querySelector("div.box_input button.btn_codificar");
+var input = document.querySelector("div#box_input input");
+
+var buttonCodifica = document.querySelector("div#box_input button.btn_codificar");
 buttonCodifica.onclick = codificar;
-var buttonDescodifica = document.querySelector("div.box_input button.btn_descodificar");
+var buttonDescodifica = document.querySelector("div#box_input button.btn_descodificar");
 buttonDescodifica.onclick = descodificar;
