@@ -27,8 +27,7 @@ function codificar(){
 
     }
     console.log(novaFrase)
-    return novaFrase;
-}
+    }
 
 function descodificar() {
     var novaFrase = "";
@@ -61,8 +60,7 @@ function descodificar() {
         }
     }
     console.log(novaFrase)
-    return novaFrase;
-
+    
     
 }
 
